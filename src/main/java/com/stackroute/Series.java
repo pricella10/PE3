@@ -1,7 +1,8 @@
 package com.stackroute;
 
 public class Series {
-    public String testCheckConsecutive(String s) {
-
+    public String testCheckConsecutive(String s)
+    {
+        return null;
     }
 }

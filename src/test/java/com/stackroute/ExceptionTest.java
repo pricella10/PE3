@@ -1,6 +1,6 @@
 package com.stackroute;
 
-<<<<<<< HEAD
+
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
@@ -45,7 +45,7 @@ public class ExceptionTest {
 
 
 }
-=======
+
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -56,7 +56,8 @@ public class ExceptionTest {
     Exception exception = null;
 
     @BeforeClass
-    public void setup() {
+    public void setup() throws java.lang.Exception
+    {
         // setup methods runs, before every test case runs
         // This method is used to initialize the required variables
         exception = new Exception();
@@ -64,7 +65,8 @@ public class ExceptionTest {
     }
 
     @AfterClass
-    public void teardown() {
+    public void teardown() throws java.lang.Exception
+    {
         // teardown method runs, after every test case run
         // This method is to clear the initialized variables
         exception = null;
@@ -72,18 +74,42 @@ public class ExceptionTest {
     }
 
     @Test
-    public void testCheckExceptionString() {
+    public void testCheckExceptionString1() {
 
+        String[] str={"Hello Check it"};
+        assertEquals("",);
     }
 
     @Test
-    public void testCheckCatchClause() {
+    public void testCheckCatchClause2() {
 
+        String[] str={""};
+        assertEquals("",);
     }
 
     @Test
-    public void testCheckFinallyClause() {
+    public void testCheckFinallyClause3() {
 
+        String[] str={""};
+        assertEquals("",);
     }
+
+
 }
->>>>>>> f17740e0f5a6afc4010f5aa106f5971526f62865
+
+
+//public class SimpleException {
+//    public static void main(String args[]) {
+//        try {
+//            throw new Exception("An exception in main");
+//        } catch(Exception e) {
+//            System.out.println(
+//                    "e.getMessage() = " + e.getMessage());
+//        } finally {
+//            System.out.println("In finally clause");
+//        }
+//    }
+//}
+
+} f17740e0f5a6afc4010f5aa106f5971526f62865
+
