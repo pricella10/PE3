@@ -2,6 +2,20 @@ package com.stackroute;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+<<<<<<< HEAD
+//
+//public class VowelsTest {
+//    Vowels vowel = new Vowels();
+//
+//    @Test
+//    public void removeVowels()
+//    {
+//        String[] result= vowel.vowelRemover(new String[]{"India,United States, Germany,Egypt,czechoslovakia"});
+//        assertArrayEquals(new String[]{"Ind,Untd Stts,Grmny,Egypt,czchslvk"},result);
+//    }
+//
+//}
+=======
 
 
 public class VowelsTest {
@@ -39,3 +53,4 @@ public class VowelTest {
         assertNotEquals(new String[]{"Ind,czchslvk"},result);
     }
 }
+>>>>>>> f17740e0f5a6afc4010f5aa106f5971526f62865
