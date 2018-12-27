@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74bd7347-8d52-4b5e-8097-e533735ac1cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/MatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/MatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target" beforeDir="false" afterPath="$PROJECT_DIR$/target" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/VowelsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/VowelsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/MatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="370">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/VowelsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/MatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/VowelsTest.java" />
       </list>
     </option>
   </component>
@@ -86,7 +86,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
     <option name="width" value="837" />
@@ -161,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545906073829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545906188563" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
   </component>
@@ -314,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/MatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="370">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
