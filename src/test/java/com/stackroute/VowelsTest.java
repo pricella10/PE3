@@ -5,12 +5,12 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class VowelsTest {
-    Vowels vowel = new Vowels();
+    VowelsTest vowel = new VowelsTest();
 
     @Test
-    public void removeVowels()
+    public void removeVowels(String[] strings)
     {
-        String[] result= vowel.vowelRemover(new String[]{"India,United States, Germany,Egypt,czechoslovakia"});
+        String[] result= vowel.removeVowels(new String[]{"India,United States, Germany,Egypt,czechoslovakia"});
         assertArrayEquals(new String[]{"Ind,Untd Stts,Grmny,Egypt,czchslvk"},result);
     }
 
