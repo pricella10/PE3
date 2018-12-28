@@ -2,30 +2,8 @@ package com.stackroute;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-<<<<<<< HEAD
-//
-//public class MatrixTest {
-//    Matrix mat = new Matrix();
-//
-//    @Test
-//    public void matrixSum()
-//    {
-//        int[][] result = mat.add(new int[][]{{1, 2, 3}, {4, 5, 6}}, new int[][]{{9, 8, 7}, {6, 5, 4}});
-//        assertArrayEquals(new int[][]{{10,10},{10,10},{10,10}},result);
-//    }
-//
-//
-//
-//    @Test
-//    public void matrixSumFail()
-//    {
-//        int[][] result = mat.add(new int[][]{{1, 2, 3}, {4, 5, 6}}, new int[][]{{9, 8, 7}, {6, 5, 4}});
-//        assertArrayEquals(new int[][]{{10,10},{9,10},{10,10}},result);
-//    }
-//
-//
-//}
-=======
+
+
 
 public class MatrixTest {
 
@@ -58,4 +36,3 @@ public class MatrixTest {
     }
 
 }
->>>>>>> f17740e0f5a6afc4010f5aa106f5971526f62865
