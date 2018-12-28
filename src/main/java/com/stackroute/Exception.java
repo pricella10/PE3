@@ -1,11 +1,12 @@
 package com.stackroute;
-
 public class Exception {
-
-    public static void main(String[] str)
+    String string = null;
+    public Exception(String str)
     {
-        str={"Hi here is an exception"};
-        return str;
+    //constructor
+    }
+    public boolean main(int [] arr)
+    {
 
     }
 }
