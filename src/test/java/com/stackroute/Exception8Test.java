@@ -34,7 +34,7 @@ public class Exception8Test {
     @Test
     public void indexOutOfBoundArray(){
         String expectedValue = "class java.lang.NullPointerException";
-        String actualValue = exceptionObj.NullPointerException();
+        String actualValue = exceptionObj.nullPointerException();
         assertEquals(expectedValue,actualValue);
 
 
