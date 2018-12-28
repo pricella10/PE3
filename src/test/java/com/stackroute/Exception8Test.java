@@ -1,47 +1,31 @@
-package com.stackroute;
+package com.stackroute.javape3;
 
 import org.junit.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.Assert.*;
 
 public class Exception8Test {
 
-    private Exception8 exceptionObj = new Exception8();
 
-    //NegativeArraySizeException
+    Exception8 exceptionObj = new Exception8();
     @Test
-    public void negativeArrayTest(){
+    public void negativeArray() {
         String expectedValue = "class java.lang.NegativeArraySizeException";
         String actualValue = exceptionObj.negativeArray();
         assertEquals(expectedValue,actualValue);
-
-
     }
 
-    //IndexOutOfBoundsException
-
-
     @Test
-    public void indexOutOfBoundArray(){
-        String expectedValue = "class java.lang.ArrayIndexOutOfBound";
+    public void indexOutOfBoundArray() {
+        String expectedValue = "class java.lang.ArrayIndexOutOfBoundsException";
         String actualValue = exceptionObj.indexOutOfBoundArray();
         assertEquals(expectedValue,actualValue);
-
-
     }
 
-//NullPointerException
     @Test
-    public void indexOutOfBoundArray(){
+    public void nullPointerException() {
         String expectedValue = "class java.lang.NullPointerException";
         String actualValue = exceptionObj.nullPointerException();
         assertEquals(expectedValue,actualValue);
-
-
     }
-
-
-
-
 }
-
